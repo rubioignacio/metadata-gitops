@@ -7,14 +7,14 @@ spec:
   selector:
     matchLabels:
       app: metadata
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
         app: metadata
     spec:
       containers:
-        - image: "igrubio/metadata:2023"
+        - image: "igrubio/metadata:2022"
           imagePullPolicy: IfNotPresent
           name: metadata
           ports:
