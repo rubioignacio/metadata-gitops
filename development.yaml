@@ -14,7 +14,7 @@ spec:
         app: metadata
     spec:
       containers:
-        - image: "igrubio/metadata:2022"
+        - image: "igrubio/metadata:2023"
           imagePullPolicy: IfNotPresent
           name: metadata
           ports:
